@@ -11,5 +11,23 @@
   "assets": {
     "directory": "./dist/client",
     "not_found_handling": "single-page-application"
+  },
+  "env": {
+    "production": {
+      "routes": [
+        {
+          "pattern": "engineer4.ai",
+          "custom_domain": true
+        }
+      ]
+    },
+    "staging": {
+      "routes": [
+        {
+          "pattern": "dev.engineer4.ai",
+          "custom_domain": true
+        }
+      ]
+    }
   }
 }
