@@ -16,6 +16,10 @@
     {
       "pattern": "engineer4.ai",
       "custom_domain": true
+    },
+    {
+      "pattern": "dev.engineer4.ai",
+      "custom_domain": true
     }
   ]
 }

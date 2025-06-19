@@ -1,5 +1,5 @@
 import * as React from "react";
-import { styled, createTheme } from "@mui/material/styles";
+import { styled } from "@mui/material/styles";
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import { AppProvider, Navigation, Router } from "@toolpad/core/AppProvider";
 import {
@@ -54,7 +54,6 @@ function CustomPageToolbar() {
         <Button
           variant="outlined"
           size="small"
-          color="neutral"
           startIcon={<DownloadIcon fontSize="inherit" />}
         >
           Download
@@ -62,7 +61,6 @@ function CustomPageToolbar() {
         <Button
           variant="outlined"
           size="small"
-          color="neutral"
           startIcon={<PrintIcon fontSize="inherit" />}
         >
           Print

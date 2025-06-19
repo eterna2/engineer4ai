@@ -26,7 +26,9 @@ export default function Chat({ modelId, onResponse }: ChatProps) {
   const { engine, progress } = useWebLLM(modelId);
   const onClick = async () => {
     if (!engine) return;
-    const messages = [{ role: "user", content: content }];
+    const messages: { role: "user" | "assistant"; content: string }[] = [
+      { role: "user", content: content }
+    ];
     setIsLoading(true);
     onResponse({ choices: [{ message: { role: "user", content: content } }] });
     setContent("");
