@@ -15,6 +15,12 @@
     "publish": true
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mlc-ai/web-llm": "^0.2.79",
+    "@mui/icons-material": "^7.1.2",
+    "@mui/material": "^7.1.2",
+    "@toolpad/core": "^0.16.0",
     "hono": "4.7.7",
     "react": "19.0.0",
     "react-dom": "19.0.0"
