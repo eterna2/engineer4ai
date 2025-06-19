@@ -21,7 +21,7 @@
         }
       ]
     },
-    "development": {
+    "staging": {
       "routes": [
         {
           "pattern": "dev.engineer4.ai",

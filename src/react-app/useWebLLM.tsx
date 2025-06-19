@@ -15,7 +15,7 @@ import { useEffect, useState } from "react";
 
 // https://github.com/mlc-ai/web-llm/blob/main/src/config.ts
 export function useWebLLM(
-  modelId: string = "Hermes-3-Llama-3.1-8B-q4f16_1-MLC"
+  modelId: string = "gemma-2-2b-it-q4f16_1-MLC-1k" // "Hermes-3-Llama-3.1-8B-q4f16_1-MLC"
 ) {
   const [engine, setEngine] = useState<WebWorkerMLCEngine | null>(null);
   const [progress, setProgress] = useState<InitProgressReport | null>(null);
